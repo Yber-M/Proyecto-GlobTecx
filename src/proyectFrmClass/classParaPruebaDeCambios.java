@@ -7,6 +7,8 @@ public class classParaPruebaDeCambios {
         while (cont < 3) {            
             cont++;
             System.out.println("PRUEBA FINALIZADA");
+            System.out.println("VIENDO SI ES QUE SE PUEDE CAMBIAR");
+            //SI
         }
     }
 }
