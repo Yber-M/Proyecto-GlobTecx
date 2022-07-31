@@ -332,6 +332,7 @@ public final class frmRegistroAdmin extends javax.swing.JFrame {
 
     public void mostrarTiempo() {
         lblHora.setText(time.hourComplet);
+        System.out.println("prueba");
     }
 
     private void btnIniciarSssActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnIniciarSssActionPerformed
