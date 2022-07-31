@@ -58,6 +58,7 @@ public class menuVentas extends javax.swing.JFrame {
         lblLogo = new javax.swing.JLabel();
         jLabel1 = new javax.swing.JLabel();
         pnlMover = new javax.swing.JPanel();
+        jLabel2 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setLocationByPlatform(true);
@@ -230,6 +231,9 @@ public class menuVentas extends javax.swing.JFrame {
         pnlMover.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
         pnlRegistro.add(pnlMover, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 790, 40));
 
+        jLabel2.setText("jLabel2");
+        pnlRegistro.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 50, -1, -1));
+
         getContentPane().add(pnlRegistro, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 790, 530));
 
         pack();
@@ -388,6 +392,7 @@ public class menuVentas extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel lblAcceder;
     private javax.swing.JLabel lblContra;
     private javax.swing.JLabel lblHora;
